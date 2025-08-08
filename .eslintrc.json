@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "next/core-web-vitals"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    // 開発中の警告を抑制
+    "@next/next/no-img-element": "off",
+    "@next/next/no-html-link-for-pages": "off",
+    "react/no-unescaped-entities": "off",
+    "react/display-name": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    // 未使用変数の警告を抑制
+    "@typescript-eslint/no-unused-vars": "warn",
+    // 型チェック警告を抑制（開発中）
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    // アクセシビリティ警告を抑制
+    "jsx-a11y/alt-text": "warn"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

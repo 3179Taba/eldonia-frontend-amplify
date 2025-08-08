@@ -1,0 +1,89 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景の円 -->
+  <circle cx="256" cy="256" r="240" fill="url(#gradient-bg)" stroke="url(#gradient-border)" stroke-width="8"/>
+  
+  <!-- 城のシルエット -->
+  <path d="M 180 320 L 180 200 L 160 200 L 160 180 L 140 180 L 140 160 L 120 160 L 120 140 L 100 140 L 100 120 L 80 120 L 80 100 L 60 100 L 60 80 L 40 80 L 40 320 Z" fill="url(#gradient-castle)"/>
+  <path d="M 332 320 L 332 200 L 352 200 L 352 180 L 372 180 L 372 160 L 392 160 L 392 140 L 412 140 L 412 120 L 432 120 L 432 100 L 452 100 L 452 80 L 472 80 L 472 320 Z" fill="url(#gradient-castle)"/>
+  
+  <!-- 中央の塔 -->
+  <rect x="240" y="120" width="32" height="200" fill="url(#gradient-tower)"/>
+  <rect x="248" y="100" width="16" height="20" fill="url(#gradient-tower)"/>
+  
+  <!-- 魔法の杖 -->
+  <path d="M 280 180 Q 300 160 320 180 Q 340 200 320 220 Q 300 240 280 220 Q 260 200 280 180" fill="url(#gradient-wand)"/>
+  <line x1="320" y1="200" x2="380" y2="160" stroke="url(#gradient-wand)" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- 宝石 -->
+  <path d="M 200 200 L 220 180 L 240 200 L 220 220 Z" fill="url(#gradient-gem)"/>
+  <path d="M 220 180 L 240 160 L 260 180 L 240 200 Z" fill="url(#gradient-gem)"/>
+  <path d="M 240 160 L 260 180 L 280 160 L 260 140 Z" fill="url(#gradient-gem)"/>
+  <path d="M 260 140 L 280 160 L 300 140 L 280 120 Z" fill="url(#gradient-gem)"/>
+  
+  <!-- 星の装飾 -->
+  <path d="M 120 80 L 125 90 L 135 90 L 127 97 L 132 107 L 120 100 L 108 107 L 113 97 L 105 90 L 115 90 Z" fill="url(#gradient-star)"/>
+  <path d="M 400 80 L 405 90 L 415 90 L 407 97 L 412 107 L 400 100 L 388 107 L 393 97 L 385 90 L 395 90 Z" fill="url(#gradient-star)"/>
+  <path d="M 256 60 L 261 70 L 271 70 L 263 77 L 268 87 L 256 80 L 244 87 L 249 77 L 241 70 L 251 70 Z" fill="url(#gradient-star)"/>
+  
+  <!-- 魔法の光の効果 -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="url(#gradient-magic)" stroke-width="2" opacity="0.3"/>
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#gradient-magic)" stroke-width="1" opacity="0.2"/>
+  
+  <!-- グラデーション定義 -->
+  <defs>
+    <!-- 背景グラデーション -->
+    <linearGradient id="gradient-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- ボーダーグラデーション -->
+    <linearGradient id="gradient-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffed4e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 城のグラデーション -->
+    <linearGradient id="gradient-castle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a0522d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b4513;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 塔のグラデーション -->
+    <linearGradient id="gradient-tower" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#696969;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#808080;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#696969;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 魔法の杖のグラデーション -->
+    <linearGradient id="gradient-wand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9370db;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8a2be2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9370db;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 宝石のグラデーション -->
+    <linearGradient id="gradient-gem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ced1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#20b2aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ced1;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 星のグラデーション -->
+    <linearGradient id="gradient-star" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffff00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 魔法の光のグラデーション -->
+    <radialGradient id="gradient-magic" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+</svg> 
